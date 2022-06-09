@@ -1,7 +1,15 @@
-lnk = document.createElement('link');
-lnk.href = chrome.runtime.getURL('content/main.css');
-lnk.rel = "stylesheet";
-lnk.type = "text/css"
+window.onload = () => {
+  setTimeout(() => {
+    const element = document.getElementById('app').children[0];
 
-document.querySelector('head').appendChild(lnk) // add our css at end for higher precendence
-console.log("script loaded...")
+    console.log(element.classList);
+    if (element) {
+      if (element.classList.contains('app-wrapper-web')) {
+        element.classList.remove(['app-wrapper-web']);
+        console.log('removed');
+      }
+      console.log(element.classList);
+    }
+  }, 5000);
+};
+console.log('script loaded...');
