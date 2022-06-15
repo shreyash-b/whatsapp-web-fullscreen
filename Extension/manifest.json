@@ -21,14 +21,14 @@
                 "https://web.whatsapp.com/*"
             ],
             "css": [
-                "content/styles.css"
+                "content/main.css"
             ]
         }
     ],
     "web_accessible_resources": [
         {
             "resources": [
-                "content/styles.css"
+                "content/main.css"
             ],
             "matches": [
                 "https://web.whatsapp.com/*"
