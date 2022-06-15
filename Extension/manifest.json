@@ -20,15 +20,15 @@
             "matches": [
                 "https://web.whatsapp.com/*"
             ],
-            "js": [
-                "content/script.js"
+            "css": [
+                "content/styles.css"
             ]
         }
     ],
     "web_accessible_resources": [
         {
             "resources": [
-                "content/script.js"
+                "content/styles.css"
             ],
             "matches": [
                 "https://web.whatsapp.com/*"
