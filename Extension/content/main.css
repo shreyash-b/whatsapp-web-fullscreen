@@ -1,6 +1,5 @@
-div[id="app"] > div > *, div[id="app"] > div > span > div > span > div > div{
-  top: 0 !important;
+div[id="app"] > div > div[tabindex="-1"]{
   width: 100% !important;
-  max-width: 100vw !important;
   height: 100% !important;
+  position:static !important;
 }
